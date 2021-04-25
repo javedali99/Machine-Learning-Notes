@@ -98,3 +98,28 @@ The repository contains the work related to Machine Learning and some notes from
 6. [Change and convert time and date data](https://gitlab.com/imanursar/machine-learning-notes/-/blob/master/Time%20series/Get%20the%20Current%20Date%20and%20Time.ipynb)
 7. [Sequence Problems with LSTM](https://gitlab.com/imanursar/machine-learning-notes/-/blob/master/Time%20series/Solving%20Sequence%20Problems%20with%20LSTM%20in%20Keras.ipynb)
 8. [Time Series Prediction using LSTM and PyTorch](https://gitlab.com/imanursar/machine-learning-notes/-/blob/master/Time%20series/Time%20Series%20Prediction%20using%20LSTM%20with%20PyTorch%20in%20Python%20.ipynb)
+9. [Predict Visitor Forecasting](https://gitlab.com/imanursar/machine-learning-notes/-/blob/master/Time%20series/Visitor%20Forecasting.ipynb)
+
+## [Clustering](https://gitlab.com/imanursar/machine-learning-notes/-/tree/master/Clustering)
+1. [Simple Customer Segmentation Using RFM Analysis](https://gitlab.com/imanursar/machine-learning-notes/-/blob/master/Clustering/Simple%20Customer%20Segmentation%20Using%20RFM%20Analysis.ipynb)
+2. [Select Optimal Number of Clusters](https://gitlab.com/imanursar/machine-learning-notes/-/blob/master/Clustering/optimal%20number%20of%20clusters%20in%20Python.ipynb)
+3. [Customer Segmentation Using Cohort and RFM Analysis](https://gitlab.com/imanursar/machine-learning-notes/-/blob/master/Clustering/Customer%20Segmentation%20(cohort,%20RFM).ipynb)
+
+## [Quality Control Case](https://gitlab.com/imanursar/machine-learning-notes/-/tree/master/Quality%20Control%20Case)
+1. [Predictive Maintenance detect Faults from Sensors with CNN](https://gitlab.com/imanursar/machine-learning-notes/-/blob/master/Quality%20Control%20Case/Predictive%20Maintenance%20detect%20Faults%20from%20Sensors%20with%20CNN.ipynb)
+2. [Predictive Maintenance detect Faults from Sensors with CRNN and Spectrograms](https://gitlab.com/imanursar/machine-learning-notes/-/blob/master/Quality%20Control%20Case/Predictive%20Maintenance%20detect%20Faults%20from%20Sensors%20with%20CRNN%20and%20Spectrograms.ipynb)
+3. [Quality Control with Machine Learning](https://gitlab.com/imanursar/machine-learning-notes/-/blob/master/Quality%20Control%20Case/Quality%20Control%20with%20Machine%20Learning.ipynb)
+
+## [Rare Event](https://gitlab.com/imanursar/machine-learning-notes/-/tree/master/Rare%20Event)
+1. [Extreme Event Forecasting with LSTM Autoencoders](https://gitlab.com/imanursar/machine-learning-notes/-/blob/master/Rare%20Event/Extreme%20Event%20Forecasting%20with%20LSTM%20Autoencoders.ipynb)
+2. [Remaining Life Estimation](https://gitlab.com/imanursar/machine-learning-notes/-/blob/master/Rare%20Event/Remaining%20Life%20Estimation.ipynb)
+3. [Survival Analysis with LightGBM plus Poisson Regression](https://gitlab.com/imanursar/machine-learning-notes/-/blob/master/Rare%20Event/Survival%20Analysis%20with%20LightGBM%20plus%20Poisson%20Regression.ipynb)
+
+## [Recommendation Engine](https://gitlab.com/imanursar/machine-learning-notes/-/tree/master/Recommendation%20Engine)
+1. [Movie Lens Collaborative Filtering](https://gitlab.com/imanursar/machine-learning-notes/-/blob/master/Recommendation%20Engine/Movie%20Lens%20Collaborative%20Filtering.ipynb)
+2. [Cosine similarity](https://gitlab.com/imanursar/machine-learning-notes/-/blob/master/Recommendation%20Engine/Cosine%20similarity.ipynb)
+
+## [Geospacial](https://gitlab.com/imanursar/machine-learning-notes/-/tree/master/geospacial)
+1. [Unsupervised PCA & K-Means](https://gitlab.com/imanursar/machine-learning-notes/-/tree/master/geospacial/Unsupervised%20PCA%20&%20K-Means)
+2. [Unsupervised Deep Slow Feature Analysis](https://gitlab.com/imanursar/machine-learning-notes/-/tree/master/geospacial/Unsupervised%20Deep%20Slow%20Feature%20Analysis)
+3. [Supervised DSMS-FCN](https://gitlab.com/imanursar/machine-learning-notes/-/tree/master/geospacial/supervised%20DSMS-FCN)
