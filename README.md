@@ -3,7 +3,7 @@
 The repository contains the work related to Machine Learning and some notes from what i have learned in machine learning.
 
 ## [Custom Function](https://github.com/javedali99/Machine-Learning-Notes/tree/master/Custom%20Function)
-1. [Description Function](https://github.com/javedali99/Machine-Learning-Notes/blob/master/Custom%20Function/Advance%20Visual%20Function.ipynb
+1. [Description Function](https://github.com/javedali99/Machine-Learning-Notes/blob/master/Custom%20Function/Advance%20Visual%20Function.ipynb)
 2. [Visual Function](https://github.com/javedali99/Machine-Learning-Notes/blob/master/Custom%20Function/Visual%20Function.ipynb)
 2. [Advance Visual Function](https://github.com/javedali99/Machine-Learning-Notes/blob/master/Custom%20Function/Advance%20Visual%20Function.ipynb)
 4. [Feature Engineering Function](https://github.com/javedali99/Machine-Learning-Notes/blob/master/Custom%20Function/Feature%20Engineering%20Function.ipynb)
