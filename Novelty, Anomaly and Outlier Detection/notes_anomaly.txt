@@ -1,0 +1,39 @@
+outlier detection
+    The training data contains outliers which are defined as observations that are far from the others. Outlier detection estimators thus try to fit the regions where the training data is the most concentrated, ignoring the deviant observations.
+	
+novelty detection
+    The training data is not polluted by outliers and we are interested in detecting whether a new observation is an outlier. In this context an outlier is also called a novelty.
+
+Outlier detection as unsupervised anomaly detection 
+Novelty detection as semi-supervised anomaly detection
+
+
+One Class SVM
+	It requires the choice of a kernel and a scalar parameter to define a frontier. The RBF kernel is usually chosen although there exists no exact formula or algorithm to set its bandwidth parameter.
+
+Isolation Forest Algorithm
+	One efficient way of performing outlier detection in high-dimensional datasets is to use random forests.
+	
+	‘isolates’ observations by randomly selecting a feature and then randomly selecting a split value between the maximum and minimum values of the selected feature
+	
+	Since recursive partitioning can be represented by a tree structure, the number of splittings required to isolate a sample is equivalent to the path length from the root node to the terminating node.
+
+	This path length, averaged over a forest of such random trees, is a measure of normality and our decision function.
+
+	Random partitioning produces noticeably shorter paths for anomalies. Hence, when a forest of random trees collectively produce shorter path lengths for particular samples, they are highly likely to be anomalies.
+	
+Unsupervised Outlier Detection using Local Outlier Factor (LOF)
+	(LOF) algorithm computes a score (called local outlier factor) reflecting the degree of abnormality of the observations.
+	
+	It measures the local density deviation of a given data point with respect to its neighbors. The idea is to detect the samples that have a substantially lower density than their neighbors.
+	
+	In practice the local density is obtained from the k-nearest neighbors.
+	
+	The LOF score of an observation is equal to the ratio of the average local density of his k-nearest neighbors, and its own local density: a normal instance is expected to have a local density similar to that of its neighbors, while abnormal data are expected to have much smaller local density.
+	
+
+Robust covariance Elliptic Envelope
+	One common way of performing outlier detection is to assume that the regular data come from a known distribution (e.g. data are Gaussian distributed).
+	
+	we generally try to define the “shape” of the data, and can define outlying
+	observations as observations which stand far enough from the fit shape.

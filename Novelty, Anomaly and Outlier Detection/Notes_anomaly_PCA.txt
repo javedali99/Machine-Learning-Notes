@@ -1,0 +1,6 @@
+For PCA, the reconstruction error will depend largely on the number of principal components we keep and use to reconstruct the original transactions. The more principal components we keep, the better PCA will be at learning the underlying structure of the original transactions.
+
+However, there is a balance. If we keep too many principal components, PCA may too easily reconstruct the original transactions, so much so that the reconstruction error will be minimal for all of the transactions. If we keep too few principal components, PCA may not be able to reconstruct any of the original transactions well enough—not even the normal, nonfraudulent transactions.
+
+When the number of principal components equals the number of original dimensions, PCA captures nearly 100% of the variance/information in the data as it generates the principal components. Therefore, when PCA reconstructs the transactions from the principal components, it will have too little reconstruction error for all the transactions, fraudulent or otherwise. We will not be able to differentiate between rare transactions and normal ones—in other words, anomaly detection will be poor.
+
